@@ -1,3 +1,0 @@
-D:/Projects/Java/30Subs/app/src/main/cpp/out/build/x64-Debug (default)/CMakeFiles/native-lib.dir
-D:/Projects/Java/30Subs/app/src/main/cpp/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
-D:/Projects/Java/30Subs/app/src/main/cpp/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
