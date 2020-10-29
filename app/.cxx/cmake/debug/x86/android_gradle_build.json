@@ -24,9 +24,33 @@
           "src": "D:\\Projects\\Java\\30Subs\\app\\src\\main\\cpp\\native-lib.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Projects\\Java\\30Subs\\app\\src\\main\\cpp\\FileUtil.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Projects\\Java\\30Subs\\app\\src\\main\\cpp\\MainActivity.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Projects\\Java\\30Subs\\app\\src\\main\\cpp\\Shader.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
         }
       ],
-      "headers": [],
+      "headers": [
+        {
+          "header": "D:\\Projects\\Java\\30Subs\\app\\src\\main\\cpp\\Util.hpp",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "D:\\Projects\\Java\\30Subs\\app\\src\\main\\cpp\\JNIUtil.hpp",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
       "output": "D:\\Projects\\Java\\30Subs\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libnative-lib.so",
       "runtimeFiles": []
     }
