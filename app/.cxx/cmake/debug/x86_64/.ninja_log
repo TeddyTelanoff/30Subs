@@ -1,0 +1,17 @@
+# ninja log v5
+0	1918	625689048	CMakeFiles/native-lib.dir/native-lib.cpp.o	748132b99ca67ea2
+1921	2093	625689048	D:/Projects/Java/30Subs/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	fe082617a92e57bf
+2	360	625689438	CMakeFiles/native-lib.dir/native-lib.cpp.o	748132b99ca67ea2
+360	638	625689438	D:/Projects/Java/30Subs/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	fe082617a92e57bf
+1	286	625695666	CMakeFiles/native-lib.dir/MainActivity.cpp.o	66fcca10376b2017
+286	742	625695667	D:/Projects/Java/30Subs/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	e84c00220f509a60
+2	1968	625698267	CMakeFiles/native-lib.dir/MainActivity.cpp.o	66fcca10376b2017
+1969	2476	625698267	D:/Projects/Java/30Subs/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	e84c00220f509a60
+4	1777	625698872	CMakeFiles/native-lib.dir/MainActivity.cpp.o	66fcca10376b2017
+1777	2062	625698872	D:/Projects/Java/30Subs/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	e84c00220f509a60
+4	2169	625699066	CMakeFiles/native-lib.dir/MainActivity.cpp.o	66fcca10376b2017
+2169	2448	625699066	D:/Projects/Java/30Subs/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	e84c00220f509a60
+3	2299	625699224	CMakeFiles/native-lib.dir/native-lib.cpp.o	748132b99ca67ea2
+2299	2585	625699224	D:/Projects/Java/30Subs/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	fe082617a92e57bf
+4	1755	625699323	CMakeFiles/native-lib.dir/native-lib.cpp.o	748132b99ca67ea2
+1755	2116	625699324	D:/Projects/Java/30Subs/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	fe082617a92e57bf
