@@ -33,7 +33,5 @@ public class MyRenderer implements GLSurfaceView.Renderer {
         glViewport(0, 0, width, height);
     }
 
-    public void renderMesh(Mesh mesh, Shader shader) {
-
-    }
+    public native void renderMesh(Mesh mesh, Shader shader);
 }

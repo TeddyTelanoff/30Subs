@@ -8,3 +8,4 @@
 #include "MainActivity.cpp"
 #include "FileUtil.cpp"
 #include "Shader.cpp"
+#include "MyRenderer.cpp"

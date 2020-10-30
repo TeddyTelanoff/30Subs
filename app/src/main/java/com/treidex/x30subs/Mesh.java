@@ -5,10 +5,14 @@ import java.nio.FloatBuffer;
 import java.nio.ByteOrder;
 import java.nio.IntBuffer;
 
+import static android.opengl.GLES30.*;
+
 public class Mesh {
     private FloatBuffer positionBuffer;
     private FloatBuffer colorBuffer;
     private IntBuffer indicesBuffer;
+
+    private int vao, pbo, cbo, ibo;
 
     public Vector[] positions;
     public Vector[] colors;
@@ -19,6 +23,11 @@ public class Mesh {
         this.colors = colors;
         this.indices = indices;
 
+        create();
+    }
+
+    public void setup() {
+        //region Setup Buffers
         ByteBuffer pbb = ByteBuffer.allocate(positions.length * Vector.BYTES);
         pbb.order(ByteOrder.nativeOrder());
 
@@ -44,5 +53,10 @@ public class Mesh {
         indicesBuffer.put(indices);
 
         indicesBuffer.rewind();
+        //endregion
     }
+
+    public native void create();
+
+    public native void bind();
 }

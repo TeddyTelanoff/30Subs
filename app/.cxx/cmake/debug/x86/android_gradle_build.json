@@ -39,6 +39,16 @@
           "src": "D:\\Projects\\Java\\30Subs\\app\\src\\main\\cpp\\Shader.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Projects\\Java\\30Subs\\app\\src\\main\\cpp\\MyRenderer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Projects\\Java\\30Subs\\app\\src\\main\\cpp\\Mesh.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
         }
       ],
       "headers": [

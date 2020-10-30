@@ -141,8 +141,9 @@ extern "C" JNIEXPORT int JNICALL Java_com_treidex_x30subs_Shader_getUniformLocat
     jclass mUniformCacheClass = env->GetObjectClass(mUniformCache);
 
     if (env->CallBooleanMethod(mUniformCache, env->GetMethodID(mUniformCacheClass, "containsKey", "(Ljava/lang/Object;)Z"), name))
-        return (int)env->CallObjectMethod(mUniformCache, env->GetMethodID(mUniformCacheClass, "get", "(Ljava/lang/Object;)Ljava/lang/Object;"), name);
+        return reinterpret_cast<jint>(env->CallObjectMethod(mUniformCache, env->GetMethodID(mUniformCacheClass, "get", "(Ljava/lang/Object;)Ljava/lang/Object;"), name));
 
     int loc = glGetUniformLocation(env->GetIntField($this, env->GetFieldID(thisClass, "mProgram", "I")), jstring2string(env, name).c_str());
-    env->CallObjectMethod(mUniformCache, env->GetMethodID(mUniformCacheClass, "put", "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"), name, (jobject)loc);
+    env->CallObjectMethod(mUniformCache, env->GetMethodID(mUniformCacheClass, "put", "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"), name, reinterpret_cast<jobject>(loc));
+    return loc;
 }
